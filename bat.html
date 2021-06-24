@@ -1,0 +1,74 @@
+<div><p>
+
+    <style>
+      body{
+        background:#191919
+      }
+      div,p,:before,:after{
+        content:"";
+        position: absolute
+      }
+      div{
+        background: #F2AD43;
+        width: 244px;
+        height: 80px;
+        top: 100px;
+        left: 80px;
+        transform: translateX(-50)
+      }
+      div:before{
+        background: #191919;
+        width: 80px;
+        height: 30px;
+        border-radius: 0 0 10px 10px;
+        left: 83;
+      }
+      body:before{
+        background: #191919;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        left: 25px;
+        top: 100px;
+          z-index: 1;
+        -webkit-box-reflect: right 150px
+        
+      }
+      body:after{
+        background: #191919;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        left: 40px;
+        top: 160px;
+          z-index: 1;
+        -webkit-box-reflect: right -80px;
+        
+      }
+      p{
+        margin: 0;
+        background: #F2AD43;
+        width: 20px;
+        height: 20px;
+        right: 45%;
+        top: 10px;
+      }
+       p:before{
+        margin: 0;
+        background: #F2AD43;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        right: 50%;
+        top: -5px;
+        left: -5px;
+      }
+      p:after{
+       margin: 0;
+        background: #F2AD43;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        right: 50%;
+        top: -5px;
+        left: 15px;
